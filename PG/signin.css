@@ -1,0 +1,134 @@
+
+
+*{
+    box-sizing: border-box;
+    
+}
+
+.bg{
+    background: #00174f;
+    margin: -9px -8px;
+    height: 20vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.navlinks ul{
+    display: flex;
+    text-align: left;
+    /* position: fixed; */
+}
+
+.navlinks ul li{
+    list-style: none;
+    padding: 2px 5px;
+    position:relative;
+    line-height: 120px;
+    
+}
+
+.navlinks ul li a{
+    color: #f5f5f5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+    
+    
+
+.sign ul{
+    display: flex;
+    text-align: right;
+}
+
+.sign ul li{
+    list-style: none;
+    padding: 2px 5px;
+    position: relative;
+    margin-right: 35px;
+}
+
+.sign ul li a{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.bg2{
+    background: #f5f5f5;
+    height: 81.12vh;
+    margin: -9px -8px;
+}
+
+form{
+    transform: translateY(150px);
+}
+
+form div input{
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 10px 5px;
+    
+    font-size: 15px;
+    width: 17%;
+    /* display: inline; */
+    
+    border: 1px solid #00174f;
+}
+
+div a{
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align:unset;
+    /* margin: 10px 10px; */
+    color: #00174f;
+    
+}
+
+div a h2{
+    font-size: 15px;
+    padding: 10px 3px; 
+    margin: 10px 10px;
+    display: inline;
+    
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+.bg3{
+    background: #00174f;
+    height: 10vh;
+    margin:-50px -8px;
+    /* margin-top: -20px; */
+}
+
+.bg3 h2 a{
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    word-spacing: 1px;
+}
+
+
+
+
+
+    
+    
+    
